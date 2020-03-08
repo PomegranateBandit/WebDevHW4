@@ -1,0 +1,66 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.wrapper {
+  max-width: 1140px;
+  width: 100%;
+  background-color: #F0f0f0;
+}
+
+.one {
+background-color: pink;
+margin: 10px;
+padding: 5px;
+}
+
+.two {
+background-color: red;
+margin: 10px;
+padding: 5px;
+}
+
+.three {
+display: none;
+}
+
+.four {
+display: none;
+}
+
+@media only screen and (min-width: 641px)  {
+
+  .wrapper {
+    width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+
+  }
+
+  .one {
+  background-color: blue;
+  margin: 10px;
+  padding: 5px;
+  }
+
+  .two {
+  background-color: purple;
+  margin: 10px;
+  padding: 5px;
+  }
+
+  .three {
+  display: block;
+  background-color: grey;
+  margin: 10px;
+  padding: 5px;
+  }
+
+  .four {
+  display: block;
+  background-color: brown;
+  margin: 10px;
+  padding: 5px;
+  }
+}
